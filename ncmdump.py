@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-__author__ = 'qyh'
-__date__ = '2018/10/16 9:22'
+__author__ = 'SeekInDream'
+__date__ = '2024/11/30 9:22'
 
 import binascii
 import struct
@@ -81,7 +81,7 @@ def dump(file_path):
 
 if __name__ == '__main__':
     file_list = os.listdir("./")
-    file_list.remove("ncmdump.exe")
+    file_list.remove("ncm-deciphering.exe")
     try:
         file_list.remove("output")
     except:
